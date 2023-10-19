@@ -15,7 +15,7 @@ import skimage
 import skimage.transform
 from skimage.transform._warps_cy import _warp_fast
 from sklearn.utils import shuffle
-from sklearn import cross_validation
+# from sklearn import cross_validation
 from sklearn.model_selection import train_test_split
 
 RANDOM_STATE = 9
